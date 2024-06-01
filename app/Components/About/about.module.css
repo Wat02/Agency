@@ -1,0 +1,21 @@
+.color {
+    text-align: center;
+    color: white;
+    background-color: #0A0A0B;
+    padding-bottom: 100px;
+}
+
+.Flex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: var(--Open);
+    color: #818085;
+}
+
+.Abouth1 {
+    color: #F0EEF3;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}

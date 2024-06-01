@@ -1,0 +1,23 @@
+.color {
+    background-color: #0A0A0B;
+    padding-bottom: 100px;
+}
+
+.TextP {
+    width: 60%;
+    padding-top: 100px;
+    font-family: var(--poppins);
+    font-size: 35px;
+    color: #F0EEF3;
+}
+
+@media (max-width: 767px) {
+    #TextP {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+.color2 {
+    color: #FBDE73;
+}

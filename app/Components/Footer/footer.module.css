@@ -1,0 +1,21 @@
+.color {
+    background-color: #0A0A0B;
+    padding-bottom: 50px;
+}
+
+.color2 {
+    background-color: #17171B;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.footerP {
+    text-align: right;
+    color: #b8b6bf;
+    margin-bottom: 10px;
+}
+
+.footerPFirst {
+    color: #b8b6bf;
+    margin-bottom: 10px;
+}

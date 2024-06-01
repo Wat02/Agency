@@ -1,0 +1,51 @@
+.Flex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: var(--Open);
+    color: #818085;
+}
+
+.Flex2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #818085;
+    padding-top: 50px;
+}
+
+#button2 {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(#5d24ae, #c496db);
+    padding-bottom: 10px;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+
+.Padiing {
+    padding-top: 10px;
+    color: #A9A8AD;
+    font-family: var(--Open);
+}
+
+#nesto {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #8aacf7;
+    font-family: var(--poppins);
+    letter-spacing: 1px;
+}
+
+.pHero {
+    color: #b9b9bc;
+}
+
+.Padiing:hover {
+    color: #b48ced;
+    cursor: pointer;
+    transition: 0.3s;
+}

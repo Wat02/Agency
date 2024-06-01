@@ -1,0 +1,105 @@
+.center {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#button1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border-radius: 30px;
+    font-family: var(--poppins);
+    font-size: 15px;
+    padding-right: 50px;
+    z-index: 7;
+    background: linear-gradient(#A77DE2, #d2a9e6);
+}
+
+.color {
+    background-color: #0A0A0B;
+    padding-bottom: 100px;
+}
+
+.color2 {
+    background-color: #16151A;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+
+
+.HeroH1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #F0EEF3;
+    font-family: var(--poppins);
+    padding-bottom: 20px;
+}
+
+.FirstSpan {
+    background: linear-gradient(#7f52be, #cca6df);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 767px) {
+    #HeroH1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
+
+
+.HeroP {
+    color: #A9A8AD;
+    padding-bottom: 30px;
+    font-family: var(--Open);
+    font-size: 20px;
+}
+
+.Flex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: var(--Open);
+    color: #818085;
+}
+
+.Flex2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #818085;
+    padding-top: 50px;
+}
+
+#button2 {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(#5d24ae, #c496db);
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.Padiing {
+    padding-top: 10px;
+    color: #A9A8AD;
+    font-family: var(--Open);
+}
+
+#nesto {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #8aacf7;
+    font-family: var(--poppins);
+    letter-spacing: 1px;
+}
+
+.pHero {
+    color: #b9b9bc;
+}

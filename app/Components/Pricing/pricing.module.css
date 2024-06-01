@@ -1,0 +1,142 @@
+.color {
+    background-color: #0A0A0B;
+    padding-bottom: 100px;
+}
+
+.WhatP {
+    background: linear-gradient(#7f52be, #cca6df);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-family: var(--Open);
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    #WhatH3 {
+        font-size: 40px;
+
+    }
+}
+
+.WhatH3 {
+    font-size: 70px;
+    font-family: var(--poppins);
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.paddingtop {
+    padding-top: 50px;
+}
+
+.firstP {
+    font-size: 40px;
+    font-family: var(--poppins);
+}
+
+.secondP {
+    color: #5A595E;
+    font-size: 30px;
+    font-family: var(--poppins);
+}
+
+.thirdP {
+    font-size: 60px;
+    font-family: var(--poppins);
+}
+
+.colorp {
+    color: #828186;
+    font-family: var(--Open);
+}
+
+#button1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    border-radius: 30px;
+    font-family: var(--poppins);
+    font-size: 20px;
+    padding-right: 100px;
+    z-index: 7;
+    background: linear-gradient(#A77DE2, #d2a9e6);
+}
+
+.oadding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left {
+    background-color: #5A595E;
+}
+
+#color22 {
+    background-color: #1B1A1F;
+    border-radius: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.width {
+    text-align: left;
+    margin-left: 80px;
+
+}
+
+.first {
+    color: #97969A;
+    font-family: var(--poppins);
+
+}
+
+.second {
+    color: #c6c5cc;
+    font-family: var(--Open);
+}
+
+#color24 {
+    background-color: #1B1A1F;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.h3pricing {
+    font-size: 40px;
+    font-family: var(--poppins);
+}
+
+.ppricng {
+    color: #97969A;
+    padding-bottom: 20px;
+    font-family: var(--Open);
+}
+
+#button {
+    background-color: #1B1A1F;
+    border: 1px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: var(--poppins);
+    padding-bottom: 10px;
+}
+
+#color23 {
+    background-color: #1B1A1F;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+}

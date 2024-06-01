@@ -1,0 +1,38 @@
+.color {
+    background-color: #0A0A0B;
+    padding-bottom: 100px;
+}
+
+@keyframes infiniteScroll {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.NavbarP {
+    color: #F0EEF3;
+    font-family: var(--poppins);
+}
+
+.horizontalscrollingitems {
+    display: flex;
+    font-size: 60px;
+    width: 2000px;
+    animation-name: infiniteScroll;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.horizontalscrollingitemsitem {
+    white-space: nowrap;
+}
