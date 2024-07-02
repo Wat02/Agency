@@ -25,7 +25,9 @@ function Pricing() {
         <Row>
           <Col xs={12} id={`${styles.color22}`} className="col-md-5">
             <div>
-              <p className={`${styles.firstP}`}>Design Subscription</p>
+              <p id={`${styles.firstP}`} className={`${styles.firstP}`}>
+                Design Subscription
+              </p>
               <p className={`${styles.secondP}`}>$1,995/m</p>
               <h5 className={`${styles.thirdP}`}>$955/m</h5>
               <p className={`${styles.colorp}`}>
@@ -36,7 +38,7 @@ function Pricing() {
                 {" "}
                 <button id={`${styles.button1}`}>Save recent work</button>
               </div>
-              <div className={`${styles.width}`}>
+              <div id={`${styles.width}`} className={`${styles.width}`}>
                 <p className={`${styles.first}`}>Whats included:</p>
                 <p className={`${styles.second}`}>Unlimited requests</p>
                 <p className={`${styles.second}`}>Unlimited revisions</p>

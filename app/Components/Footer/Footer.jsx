@@ -12,7 +12,7 @@ function Footer() {
         <Row>
           <Col className="col-md-6">
             <div>
-              <p className={`${styles.footerPFirst}`}>
+              <p id={`${styles.footerP}`} className={`${styles.footerPFirst}`}>
                 2023 DesignTop. All rights rreserved <br />
                 Based in the UK. availible worldwide
               </p>
@@ -20,7 +20,7 @@ function Footer() {
           </Col>
           <Col className="col-md-6">
             <div>
-              <p className={`${styles.footerP}`}>
+              <p id={`${styles.footerP}`} className={`${styles.footerP}`}>
                 Terms & conditions <br />
                 Privacy Policy
               </p>

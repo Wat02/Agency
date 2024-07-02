@@ -12,7 +12,7 @@ function Hero() {
         <Nav />
       </Col>
       <div className={`${styles.center}`}> </div>
-      <Container className={`${styles.color2}`}>
+      <Container id={`${styles.color2}`} className={`${styles.color2}`}>
         <Row>
           <Col className="col-md-12">
             <div className={`${styles.center}`}></div>
@@ -21,13 +21,16 @@ function Hero() {
               <br />
               <span className={`${styles.FirstSpan}`}> one subscription</span>
             </h1>
-            <p className={`${styles.HeroP}`}>
+            <p id={`${styles.HeroP}`} className={`${styles.HeroP}`}>
               A flexible, no-fuss design subscription that puts top-tier design{" "}
               <br />
               at your fingertips. Pause or cancel anytime
             </p>
             <div className={`${styles.Flex}`}>
-              <p className={`${styles.pHero}`}> 😦 Unlimited tasks</p>
+              <p id={`${styles.pHero}`} className={`${styles.pHero}`}>
+                {" "}
+                😦 Unlimited tasks
+              </p>
               <p className={`${styles.pHero}`}> 📝 Results in just 3 days</p>
               <p className={`${styles.pHero}`}> 😢 Cancel anytime</p>
             </div>

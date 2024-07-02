@@ -25,6 +25,16 @@
 }
 
 
+@media (max-width: 767px) {
+    #button2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+
 .Padiing {
     padding-top: 10px;
     color: #A9A8AD;

@@ -15,6 +15,14 @@
     margin-bottom: 10px;
 }
 
+@media (max-width: 767px) {
+    #footerP {
+        font-size: 13px;
+    }
+}
+
+
+
 .footerPFirst {
     color: #b8b6bf;
     margin-bottom: 10px;
