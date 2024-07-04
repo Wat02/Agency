@@ -3,6 +3,7 @@ import styles from "../Pricing/pricing.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import WhiteB from "../WhiteButton/WhiteB";
 
 function Pricing() {
   return (
@@ -66,6 +67,64 @@ function Pricing() {
                 each paying customer you refer.
               </p>
               <button id={`${styles.button}`}>Join now</button>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container id={`${styles.H5pricing}`} className={`${styles.padding}`}>
+        <Row>
+          <Col xs={12} className="col-md-3">
+            <div className={`${styles.padding2}`}>
+              <h5 id={`${styles.H5pricing}`} className={`${styles.H5pricing}`}>
+                Compare plans
+              </h5>
+              <p className={`${styles.ppricing}`}>
+                Find one that's right for you
+              </p>
+            </div>
+            <div>
+              <p className={`${styles.lisitng}`}>Encrypts included</p>
+              <p className={`${styles.lisitng}`}>Decrypts incleded</p>
+              <p className={`${styles.lisitng}`}>Cage runs included</p>
+              <p className={`${styles.lisitng}`}>Multy users per team</p>
+              <p className={`${styles.lisitng}`}>Multipl teams</p>
+              <p className={`${styles.lisitng}`}>Email support</p>
+              <p className={`${styles.lisitng}`}>Advanced Support Scope</p>
+              <p className={`${styles.lisitng}`}>Deadecet Account Manager</p>
+            </div>
+          </Col>
+          <Col xs={12} className="col-md-3">
+            <div>
+              <h5>Free</h5>
+              <WhiteB title="Get Started" />
+              <p className={`${styles.pricingP}`}>500 p/m</p>
+              <p className={`${styles.pricingP}`}>500 p/m</p>
+              <p className={`${styles.pricingP}`}>250 p/m</p>
+            </div>
+          </Col>
+          <Col xs={12} className="col-md-3">
+            <div>
+              <h5>Pro</h5>
+              <WhiteB title="Get Started" />
+              <p className={`${styles.pricingP}`}>Unlimited</p>
+              <p className={`${styles.pricingP}`}>5000 p/m</p>
+              <p className={`${styles.pricingP}`}>2500 p/m</p>
+            </div>
+          </Col>
+          <Col xs={12} className="col-md-3">
+            <div>
+              <h5>Enteprise</h5>
+              <WhiteB title="Get Started" />
+              <p className={`${styles.pricingP}`}>Unlimited</p>
+              <p className={`${styles.pricingP}`}>Custom </p>
+              <p className={`${styles.pricingP}`}>Custom</p>
+              <p className={`${styles.paddings}`}>✔</p>
+              <p className={`${styles.paddings}`}>✔</p>
+              <p className={`${styles.paddings}`}>✔</p>
+              <p className={`${styles.paddings}`}>✔</p>
+              <p className={`${styles.paddings}`}>✔</p>
+              <p className={`${styles.paddings}`}>✔</p>
+              <p className={`${styles.paddings}`}>✔</p>
             </div>
           </Col>
         </Row>

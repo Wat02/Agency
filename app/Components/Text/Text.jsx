@@ -10,6 +10,10 @@ function Text() {
       <Container>
         <Row>
           <Col xs={12} className="col-md-12">
+            <span>
+              {" "}
+              <h2 className={`${styles.H2Design}`}>[ Why DesignTop ]</h2>
+            </span>
             <p id={`${styles.TextP}`} className={`${styles.TextP}`}>
               In <span className={`${styles.color2}`}> DesignTop</span>{" "}
               everything is made with Blocks that come with pixel perfect

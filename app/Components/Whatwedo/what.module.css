@@ -38,6 +38,15 @@
     }
 }
 
+@media (max-width: 767px) {
+    #button22 {
+        display: none;
+
+    }
+}
+
+
+
 
 
 

@@ -4,8 +4,7 @@
 }
 
 .TextP {
-    width: 60%;
-    padding-top: 100px;
+    width: 70%;
     font-family: var(--poppins);
     font-size: 35px;
     color: #F0EEF3;
@@ -20,4 +19,8 @@
 
 .color2 {
     color: #FBDE73;
+}
+
+.H2Design {
+    padding-bottom: 10px;
 }

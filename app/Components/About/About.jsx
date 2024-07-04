@@ -11,25 +11,27 @@ function About() {
       <Container>
         <Row>
           <Col className="col-md-12">
-            <h2 className={`${styles.Abouth1}`}>Featured and seen in</h2>
+            <h2 className={`${styles.Abouth1}`}>
+              Brands using <span className={`${styles.span}`}>DesignTop</span>:
+            </h2>
             <div className={`${styles.Flex}`}>
               <Image
                 width={90}
                 height={90}
                 alt="image of forbes logo"
-                src={"/forbes.svg"}
+                src={"/nike.svg"}
               />
               <Image
                 width={90}
                 height={90}
                 alt="image of coca cola logo"
-                src={"/cola.svg"}
+                src={"/aol.svg"}
               />
               <Image
                 width={90}
                 height={90}
                 alt="image of forbes logo"
-                src={"/sportify.svg"}
+                src={"/adidas.svg"}
               />
             </div>
           </Col>
