@@ -68,3 +68,17 @@
     font-size: 20px;
     padding-top: 100px;
 }
+
+
+#paddingDiv {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    #paddingDiv {
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

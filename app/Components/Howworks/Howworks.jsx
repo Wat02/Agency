@@ -34,40 +34,43 @@ function Howworks() {
                 Once signed up, you'll receive your own Trello board <br />{" "}
                 where you can submit unlimited design requests
               </p>
+            </div>
+          </Col>
+
+          <Col className="col-md-6">
+            <img className={`${styles.img}`} src="/digital.png" />
+          </Col>
+          <div id={`${styles.paddingDiv}`}></div>
+
+          <Col xs={12} className="col-md-6">
+            <div id={`${styles.paddingDiv}`} className={`${styles.right}`}>
+              <p className={`${styles.WhatP}`}>Two</p>
+              <h3>We design</h3>
+              <p className={`${styles.WhatText}`}>
+                We get to work to deliver on time within an <br />
+                average of just 3 working days per request.
+              </p>
+            </div>
+            <div id={`${styles.paddingDiv}`}></div>
+          </Col>
+          <Col className="col-md-6">
+            <div>
+              <img className={`${styles.img}`} src="/digital.png" />
+            </div>
+          </Col>
+          <Col xs={12} className="col-md-6">
+            <div className={`${styles.right}`}>
+              <p className={`${styles.WhatP2}`}>Three</p>
+              <h3>Revise and repeat</h3>
+              <p className={`${styles.WhatText}`}>
+                Ask for as many revisions as you need or approve the <br />
+                current design so we can move on to next request.
+              </p>
               <p></p>
             </div>
           </Col>
           <Col className="col-md-6">
             <img className={`${styles.img}`} src="/digital.png" />
-          </Col>
-          <Col xs={12} className="col-md-6">
-            <div>
-              <img className={`${styles.img2}`} src="digital.png" />
-            </div>
-          </Col>
-          <Col className="col-md-6">
-            <div className={`${styles.right}`}>
-              <p className={`${styles.WhatP2}`}>One</p>
-              <h3>Sign up, make requests</h3>
-              <p className={`${styles.WhatText}`}>
-                Once signed up, you'll receive your own Trello board <br />
-                where you can submite unlimited design requests
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} className="col-md-6">
-            <div className={`${styles.right}`}>
-              <p className={`${styles.WhatP2}`}>One</p>
-              <h3>Sign up, make requests</h3>
-              <p className={`${styles.WhatText}`}>
-                Once signed up, you'll receive your own Trello board <br />
-                where you can submite unlimited design requests
-              </p>
-              <p></p>
-            </div>
-          </Col>
-          <Col className="col-md-6">
-            <img className={`${styles.img2}`} src="/grabe.png" />
           </Col>
         </Row>
       </Container>

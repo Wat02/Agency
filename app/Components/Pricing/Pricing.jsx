@@ -83,23 +83,23 @@ function Pricing() {
               </p>
             </div>
             <div>
-              <p className={`${styles.lisitng}`}>Encrypts included</p>
-              <p className={`${styles.lisitng}`}>Decrypts incleded</p>
-              <p className={`${styles.lisitng}`}>Cage runs included</p>
-              <p className={`${styles.lisitng}`}>Multy users per team</p>
+              <p className={`${styles.lisitng}`}> Landing page</p>
+              <p className={`${styles.lisitng}`}>UX/UI</p>
+              <p className={`${styles.lisitng}`}>Design system</p>
+              <p className={`${styles.lisitng}`}> Branding</p>
               <p className={`${styles.lisitng}`}>Multipl teams</p>
-              <p className={`${styles.lisitng}`}>Email support</p>
-              <p className={`${styles.lisitng}`}>Advanced Support Scope</p>
-              <p className={`${styles.lisitng}`}>Deadecet Account Manager</p>
+              <p className={`${styles.lisitng}`}> Webflow website</p>
+              <p className={`${styles.lisitng}`}>Social media assets</p>
+              <p className={`${styles.lisitng}`}>Graphic design</p>
             </div>
           </Col>
           <Col xs={12} className="col-md-3">
             <div>
               <h5>Free</h5>
               <WhiteB title="Get Started" />
-              <p className={`${styles.pricingP}`}>500 p/m</p>
-              <p className={`${styles.pricingP}`}>500 p/m</p>
-              <p className={`${styles.pricingP}`}>250 p/m</p>
+              <p className={`${styles.pricingP}`}>1 design</p>
+              <p className={`${styles.pricingP}`}>1 design</p>
+              <p className={`${styles.pricingP}`}>1 design</p>
             </div>
           </Col>
           <Col xs={12} className="col-md-3">
@@ -107,8 +107,8 @@ function Pricing() {
               <h5>Pro</h5>
               <WhiteB title="Get Started" />
               <p className={`${styles.pricingP}`}>Unlimited</p>
-              <p className={`${styles.pricingP}`}>5000 p/m</p>
-              <p className={`${styles.pricingP}`}>2500 p/m</p>
+              <p className={`${styles.pricingP}`}>2 designs</p>
+              <p className={`${styles.pricingP}`}>2 designs</p>
             </div>
           </Col>
           <Col xs={12} className="col-md-3">
