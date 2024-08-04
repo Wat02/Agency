@@ -18,7 +18,10 @@
 }
 
 .WhatH3 {
-    font-size: 70px;
+    font-size: 72px;
+    letter-spacing: -1.5px;
+    font-weight: 500;
+    line-height: 110%;
     font-family: var(--poppins);
 }
 
@@ -33,9 +36,12 @@
 .WhatText {
     padding-top: 20px;
     font-family: var(--Open);
-    font-size: 18px;
     color: #979799;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 70px;
+    line-height: 150%;
 }
 
 .right {
@@ -61,12 +67,13 @@
 }
 
 .WhatP2 {
-    background: linear-gradient(#7f52be, #cca6df);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 20px;
-    padding-top: 100px;
+    color: #7653E7;
+    letter-spacing: .64px;
+    text-transform: uppercase;
+    font-family: var(--Open);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 125%;
 }
 
 

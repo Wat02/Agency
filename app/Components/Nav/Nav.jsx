@@ -11,7 +11,7 @@ function Nav() {
         <Row>
           <Col>
             <div className={`${styles.Flex2}`}>
-              <p className={`${styles.Padiing}`}> Work </p>
+              <p className={`${styles.Padiing}`}>Work </p>
               <p className={`${styles.Padiing}`}>Process</p>
               <p className={`${styles.Padiing}`}>Contant</p>
               <button id={`${styles.button2}`}>See pricing</button>
